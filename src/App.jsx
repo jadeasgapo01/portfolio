@@ -407,7 +407,6 @@ const handleNavClick = (e, targetId) => {
                       name="name"
                       value={formData.name}
                       onChange={handleInputChange}
-                      placeholder="e.g. Alex Morgan"
                       required
                       className="form-input"
                     />
@@ -421,7 +420,6 @@ const handleNavClick = (e, targetId) => {
                       name="email"
                       value={formData.email}
                       onChange={handleInputChange}
-                      placeholder="e.g. alex@example.com"
                       required
                       className="form-input"
                     />

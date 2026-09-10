@@ -75,6 +75,15 @@ export default function App() {
       image: '/sally-karenderya.png',
       link: '#',
     },
+    {
+      id: 'project-4',
+      title: 'Aja Travel Tours – Travel Booking System',
+      category: 'UI/UX Designer',
+      overview: 'A travel booking and management system designed to help users explore travel services, view tour information, and manage bookings.',
+      contribution: 'Designed the system’s user interface, user flows, and overall user experience to make the travel booking process clear and easy to navigate.',
+      image: '/aja.png',
+      link: '#',
+    },
   ];
 
   // Certifications Dataset

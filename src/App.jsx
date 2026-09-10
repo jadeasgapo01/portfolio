@@ -247,7 +247,7 @@ const handleNavClick = (e, targetId) => {
               <div className="portrait-wrapper">
                 <div className="blue-accent-shape" />
                 <img 
-                  src="/pic.png" 
+                  src="/profile.png" 
                   alt="Jade Elize Asgapo - Professional Portrait" 
                   className="portrait-img"
                 />

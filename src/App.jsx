@@ -45,7 +45,7 @@ export default function App() {
       category: 'UI/UX Design',
       overview: 'A cross-platform student errand and commission application designed to connect students who need assistance with students who can perform errands within the university campus.',
       contribution: 'UI/UX design, including designing the user interface, user flow, and overall user experience.',
-      image: '/src/assets/gobuddy.png',
+      image: '/gobuddy.png',
       link: '#',
     },
     {
@@ -54,7 +54,7 @@ export default function App() {
       category: 'UI/UX Design & Project Lead',
       overview: 'A standalone Point-of-Sale (POS) system developed to manage sales, products, transactions, and customer records. It was built using VB.NET and SQL.',
       contribution: 'Project Manager, where I led the team, coordinated tasks, monitored progress, and helped ensure the successful completion of the system.',
-      image: '/src/assets/jade_store.png',
+      image: '/jade_store.png',
       link: '#',
     },
     {
@@ -63,7 +63,7 @@ export default function App() {
       category: 'React Training Project',
       overview: 'A web-based Pokedex developed during React training to practice building components, managing application data, and creating interactive user interfaces.',
       contribution: 'Worked on the React components and user interface while practicing Git and GitHub workflows such as branching, committing, pushing, and merging.',
-      image: '/src/assets/pokedex.png',
+      image: '/pokedex.png',
       link: '#',
     },
     {
@@ -72,7 +72,7 @@ export default function App() {
       category: 'Web Developer / UI/UX Designer',
       overview: 'A web-based ordering system designed to help a local karenderya handle customer orders during busy periods. Customers can browse available food and place orders using their phones or a web browser.',
       contribution: 'Designed and developed the system, including the user interface and ordering functionality, with a focus on making the ordering process simple and convenient.',
-      image: '/src/assets/sally-karenderya.png',
+      image: '/sally-karenderya.png',
       link: '#',
     },
   ];
@@ -83,31 +83,31 @@ export default function App() {
       id: 'cert-1',
       title: 'IT Specialist – Databases',
       issuer: 'Certiport / Certiport ITS',
-      image: '/src/assets/cert_database.png',
+      image: '/cert_database.png',
     },
     {
       id: 'cert-2',
       title: 'IT Specialist – HTML and CSS',
       issuer: 'Certiport / Certiport ITS',
-      image: '/src/assets/cert_html.png',
+      image: '/cert_html.png',
     },
     {
       id: 'cert-3',
       title: 'IT Specialist – Java',
       issuer: 'Certiport / Certiport ITS',
-      image: '/src/assets/cert_java.png',
+      image: '/cert_java.png',
     },
     {
       id: 'cert-4',
       title: 'IT Specialist – Network Security',
       issuer: 'Certiport / Certiport ITS',
-      image: '/src/assets/cert_networksec.png',
+      image: '/cert_networksec.png',
     },
     {
       id: 'cert-5',
       title: 'Git & Github and React.js Training Certificate',
       issuer: 'College of Computing Education Skills Mentors, University of Mindanao',
-      image: '/src/assets/react.png',
+      image: '/react.png',
     },
   ];
 
@@ -247,7 +247,7 @@ const handleNavClick = (e, targetId) => {
               <div className="portrait-wrapper">
                 <div className="blue-accent-shape" />
                 <img 
-                  src="/src/assets/pic.png" 
+                  src="/pic.png" 
                   alt="Jade Elize Asgapo - Professional Portrait" 
                   className="portrait-img"
                 />

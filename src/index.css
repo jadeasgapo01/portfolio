@@ -1,0 +1,144 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #0052ff;
+  font-family: 'Impact', 'Arial Black', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.motion-canvas {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background-color: #0052ff;
+}
+
+/* Halftone SVG Overlay */
+.halftone-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.15;
+}
+
+/* Navbar Header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 64px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000;
+  border-bottom: 2px solid #000;
+  z-index: 20;
+}
+
+.logo {
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 800;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+}
+
+/* Slat Container */
+.slat-container {
+  width: 100vw;
+  height: calc(100vh - 64px);
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  background-color: #0052ff;
+}
+
+.slat-group {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  inset: 0;
+}
+
+/* Individual Vertical Slat - Thinner Black Divider Lines */
+.slat {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-right: 1.5px solid #000000; /* Made significantly thinner */
+  overflow: hidden;
+}
+
+.slat:last-child {
+  border-right: none;
+}
+
+/* Color Themes */
+.slat.blue {
+  background-color: #0052ff;
+}
+
+.slat.white {
+  background-color: #ffffff;
+}
+
+/* Typography */
+.slat-letter {
+  font-size: min(14vw, 22vh);
+  font-weight: 900;
+  text-transform: uppercase;
+  user-select: none;
+  line-height: 1;
+}
+
+.slat.blue .slat-letter {
+  color: #ffffff;
+  text-shadow: 4px 4px 0px #000000;
+}
+
+.slat.white .slat-letter {
+  color: #000000;
+  text-shadow: 4px 4px 0px #0052ff;
+}
+
+/* Corner Metadata */
+.slat-meta {
+  position: absolute;
+  bottom: 16px;
+  left: 12px;
+  font-family: monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  opacity: 0.75;
+  white-space: nowrap;
+}

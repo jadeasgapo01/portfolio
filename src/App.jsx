@@ -248,8 +248,7 @@ const handleNavClick = (e, targetId) => {
               <h1 className="name">JADE ELIZE ASGAPO</h1>
               <h2 className="title-tag">UI/UX Designer & Data Analyst</h2>
               <p className="bio">
-                An Information Technology student specializing at the intersection of user interface design and data analytics. I design intuitive, user-centered interfaces informed by data-driven insights—converting complex functional requirements and user metrics into clean, effective digital products.
-              </p>
+An Information Technology student with a strong interest in user interface design and data analytics. Experienced in designing user-centered interfaces, organizing information, and analyzing functional requirements to create effective digital solutions. I aim to combine technical skills, design principles, and data-driven insights to develop systems that are both functional and easy to use.              </p>
             </div>
 
             <div className="about-visual">
